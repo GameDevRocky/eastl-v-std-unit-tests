@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Id="24700aaa-bed5-3709-80aa-ae23b23c811e">
+		<BuildDependency Project="_deps/eastl-build/EASTL.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark_main.vcxproj"/>
+		<BuildDependency Project="dod_comprehensive_benchmarks.vcxproj"/>
+		<BuildDependency Project="dod_correctness_tests.vcxproj"/>
+		<BuildDependency Project="dod_memory_report.vcxproj"/>
+		<BuildDependency Project="dod_parallel_stress.vcxproj"/>
+		<BuildDependency Project="eastl_vs_std.vcxproj"/>
+		<BuildDependency Project="player_storage_benchmarks.vcxproj"/>
+		<BuildDependency Project="vector_benchmarks.vcxproj"/>
+	</Project>
+	<Project Path="Continuous.vcxproj" Id="7de9d57c-6dd1-3dc1-b152-d42806d76ba8">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="_deps/eastl-build/EASTL.vcxproj" Id="50deb30b-598f-3774-badd-9b3d6410b011">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Experimental.vcxproj" Id="78b897ef-9c1d-30dd-9bb2-2671781cfce9">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Id="35d2f17e-59b1-3e1e-865f-c5f2eee09e89">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="Nightly.vcxproj" Id="7580f7ba-b9c8-33b5-b80d-2b81a991ebad">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="NightlyMemoryCheck.vcxproj" Id="009461fb-8e66-393c-a052-4c268a007712">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="RUN_TESTS.vcxproj" Id="6cf2e783-a43f-3e9f-8a56-4c674ea8aadc">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Id="bc6ad2ad-4689-31a2-b9e6-4bb64c623789"/>
+	<Project Path="_deps/google_benchmark-build/src/benchmark.vcxproj" Id="d148bfe4-a856-3f8d-b7ce-a7fe85681ee7">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="_deps/google_benchmark-build/src/benchmark_main.vcxproj" Id="8066e8c7-aa6e-376d-879c-99df71bf1780">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark.vcxproj"/>
+	</Project>
+	<Project Path="dod_comprehensive_benchmarks.vcxproj" Id="e1a5ff5d-8890-3354-a932-b646788ecf0d">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark_main.vcxproj"/>
+	</Project>
+	<Project Path="dod_correctness_tests.vcxproj" Id="0dd40584-11da-3329-a459-bfaa4b13a8f1">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="dod_memory_report.vcxproj" Id="7962b847-e84d-32ff-81a1-f84eadead1bd">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="dod_parallel_stress.vcxproj" Id="6d05dd45-6c78-3716-b45a-4a8fffd25069">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="eastl_vs_std.vcxproj" Id="11a0f3c7-12c7-30b1-9e49-a7731a11294d">
+		<BuildDependency Project="_deps/eastl-build/EASTL.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="player_storage_benchmarks.vcxproj" Id="2716f732-9663-3c4d-b8fa-b788dfeac2b4">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark_main.vcxproj"/>
+	</Project>
+	<Project Path="vector_benchmarks.vcxproj" Id="e0b1b3bf-85a8-3b84-a162-4627e7eaec6a">
+		<BuildDependency Project="_deps/eastl-build/EASTL.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark.vcxproj"/>
+		<BuildDependency Project="_deps/google_benchmark-build/src/benchmark_main.vcxproj"/>
+	</Project>
+</Solution>

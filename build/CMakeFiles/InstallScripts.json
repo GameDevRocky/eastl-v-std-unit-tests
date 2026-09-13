@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/cmake_install.cmake",
+		"C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-build/cmake_install.cmake",
+		"C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-build/cmake_install.cmake",
+		"C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/google_benchmark-build/cmake_install.cmake",
+		"C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/google_benchmark-build/src/cmake_install.cmake",
+		"C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/oop_dod_backend-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

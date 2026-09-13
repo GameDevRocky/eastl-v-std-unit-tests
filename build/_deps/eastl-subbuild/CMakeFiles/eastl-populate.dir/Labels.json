@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/eastl-populate"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/bdcbbe8c036cc23904142a1817b2c5c8/eastl-populate.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/63765fc099d3370d07bb943449e1356c/eastl-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/8425d294aed733d9fe258f55548fa7cb/eastl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eastl-populate"
+		],
+		"name" : "eastl-populate"
+	}
+}

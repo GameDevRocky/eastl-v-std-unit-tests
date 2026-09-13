@@ -1,0 +1,10 @@
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\OOP_DOD_BACKEND-SUBBUILD\CMAKEFILES\F5C74AF4AB7558BE9DDA59701131B7D3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/oop_dod_backend-subbuild" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/oop_dod_backend-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/oop_dod_backend-subbuild/oop_dod_backend-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

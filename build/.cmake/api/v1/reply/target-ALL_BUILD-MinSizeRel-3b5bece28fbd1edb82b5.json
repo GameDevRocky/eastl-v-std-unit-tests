@@ -1,0 +1,47 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build/_deps/eastl-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "EASTL::@d9881a67a48e5afbbe48"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@d9881a67a48e5afbbe48",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "EASTL::@d9881a67a48e5afbbe48"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/eastl-build",
+		"source" : "build/_deps/eastl-src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

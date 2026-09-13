@@ -1,0 +1,101 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "eastl_vs_std::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "vector_benchmarks::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "player_storage_benchmarks::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_comprehensive_benchmarks::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_parallel_stress::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_memory_report::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_correctness_tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "EASTL::@d9881a67a48e5afbbe48"
+		},
+		{
+			"id" : "benchmark::@31dfe5cbed3ca4bbf2a5"
+		},
+		{
+			"id" : "benchmark_main::@31dfe5cbed3ca4bbf2a5"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "eastl_vs_std::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "vector_benchmarks::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "player_storage_benchmarks::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_comprehensive_benchmarks::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_parallel_stress::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_memory_report::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "dod_correctness_tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "EASTL::@d9881a67a48e5afbbe48"
+		},
+		{
+			"id" : "benchmark::@31dfe5cbed3ca4bbf2a5"
+		},
+		{
+			"id" : "benchmark_main::@31dfe5cbed3ca4bbf2a5"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

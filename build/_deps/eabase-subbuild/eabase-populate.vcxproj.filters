@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\6740128c0708ba651a8de951937b6b18\eabase-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\c57ba7bf64e13eb48388de2a1eb45691\eabase-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\1a79f2bca9d31f653bf74e1496a6ff92\eabase-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-subbuild\CMakeFiles\eabase-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4E20D297-3A24-31D2-B535-AAC7B6A1F5A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

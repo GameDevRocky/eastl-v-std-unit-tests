@@ -1,0 +1,1979 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/eastl-build/Debug/EASTL.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"build/_deps/eastl-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "EABase::@5aa590b54ccb34b37b27"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /std:c++latest /W4 /permissive- /MDd /Zi /Ob0 /Od /RTC1 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "EASTL_OPENSOURCE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_CHAR16T"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-src/include/Common"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "EASTL::@d9881a67a48e5afbbe48",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/Project"
+		}
+	},
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "EABase::@5aa590b54ccb34b37b27"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "EABase::@5aa590b54ccb34b37b27"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "EABase::@5aa590b54ccb34b37b27"
+		}
+	],
+	"name" : "EASTL",
+	"nameOnDisk" : "EASTL.lib",
+	"paths" : 
+	{
+		"build" : "_deps/eastl-build",
+		"source" : "build/_deps/eastl-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\bonus",
+			"sourceIndexes" : 
+			[
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic\\arch",
+			"sourceIndexes" : 
+			[
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic\\arch\\arm",
+			"sourceIndexes" : 
+			[
+				79,
+				80,
+				81,
+				82,
+				83,
+				84
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic\\arch\\x86",
+			"sourceIndexes" : 
+			[
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic",
+			"sourceIndexes" : 
+			[
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				135,
+				136,
+				137,
+				138
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic\\atomic_macros",
+			"sourceIndexes" : 
+			[
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic\\compiler",
+			"sourceIndexes" : 
+			[
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic\\compiler\\gcc",
+			"sourceIndexes" : 
+			[
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal\\atomic\\compiler\\msvc",
+			"sourceIndexes" : 
+			[
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197
+			]
+		},
+		{
+			"name" : "Header Files\\include\\EASTL\\internal",
+			"sourceIndexes" : 
+			[
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/allocator_eastl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/assert.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/atomic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/fixed_pool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/hashtable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/intrusive_list.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/numeric_limits.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/red_black_tree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/string.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/eastl-src/source/thread_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/algorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/allocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/allocator_malloc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/any.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/array.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/atomic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/atomic_raw.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bitset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bitvector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/adaptors.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/call_traits.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/compressed_pair.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/fixed_ring_buffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/fixed_tuple_vector.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/flags.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/intrusive_sdlist.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/intrusive_slist.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/list_map.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/lru_cache.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/overloaded.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/ring_buffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/sort_extra.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/bonus/tuple_vector.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/chrono.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/compare.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/core_allocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/core_allocator_adapter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/deque.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/expected.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/finally.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_allocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_function.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_hash_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_hash_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_list.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_slist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_substring.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/fixed_vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/functional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/hash_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/hash_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/heap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/initializer_list.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_acquire_fence.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_add_fetch.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_and_fetch.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_cmpxchg_strong.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_cmpxchg_weak.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_compiler_barrier.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_cpu_pause.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_exchange.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_fetch_add.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_fetch_and.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_fetch_or.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_fetch_sub.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_fetch_xor.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_load.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_memory_barrier.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_or_fetch.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_signal_fence.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_store.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_sub_fetch.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_thread_fence.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arch_xor_fetch.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arm/arch_arm.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arm/arch_arm_acquire_fence.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arm/arch_arm_load.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arm/arch_arm_memory_barrier.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arm/arch_arm_store.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/arm/arch_arm_thread_fence.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_acquire_fence.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_add_fetch.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_and_fetch.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_cmpxchg_strong.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_cmpxchg_weak.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_exchange.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_fetch_add.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_fetch_and.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_fetch_or.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_fetch_sub.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_fetch_xor.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_load.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_memory_barrier.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_or_fetch.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_store.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_sub_fetch.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_thread_fence.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/arch/x86/arch_x86_xor_fetch.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_asserts.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_base_width.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_casts.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_flag.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_flag_standalone.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_integral.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_acquire_fence.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_add_fetch.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_and_fetch.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_base.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_cmpxchg_strong.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_cmpxchg_weak.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_compiler_barrier.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_cpu_pause.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_exchange.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_fetch_add.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_fetch_and.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_fetch_or.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_fetch_sub.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_fetch_xor.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_load.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_memory_barrier.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_or_fetch.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_signal_fence.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_store.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_sub_fetch.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_thread_fence.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_macros/atomic_macros_xor_fetch.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_memory_order.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_pointer.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_size_aligned.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/atomic_standalone.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_acquire_fence.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_add_fetch.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_and_fetch.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_barrier.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_cmpxchg_strong.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_cmpxchg_weak.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_cpu_pause.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_exchange.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_fetch_add.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_fetch_and.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_fetch_or.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_fetch_sub.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_fetch_xor.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_load.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_memory_barrier.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_or_fetch.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_signal_fence.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_store.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_sub_fetch.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_thread_fence.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/compiler_xor_fetch.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_add_fetch.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_and_fetch.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_barrier.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_cmpxchg_strong.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_cmpxchg_weak.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_cpu_pause.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_exchange.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_fetch_add.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_fetch_and.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_fetch_or.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_fetch_sub.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_fetch_xor.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_load.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_or_fetch.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_signal_fence.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_store.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_sub_fetch.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_thread_fence.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/gcc/compiler_gcc_xor_fetch.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_add_fetch.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_and_fetch.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_barrier.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_cmpxchg_strong.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_cmpxchg_weak.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_cpu_pause.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_exchange.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_fetch_add.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_fetch_and.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_fetch_or.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_fetch_sub.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_fetch_xor.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_or_fetch.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_signal_fence.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_sub_fetch.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/atomic/compiler/msvc/compiler_msvc_xor_fetch.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/char_traits.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/concepts.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/config.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/copy_help.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/enable_shared.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/fill_help.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/fixed_pool.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/function.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/function_detail.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/function_help.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/functional_base.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/generic_iterator.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/hashtable.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/in_place_t.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/integer_sequence.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/intrusive_hashtable.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/mem_fn.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/memory_base.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/memory_uses_allocator.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/move_help.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/pair_fwd_decls.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/piecewise_construct_t.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/red_black_tree.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/smart_ptr.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/special_member_functions.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/special_member_functions_expected.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/special_member_functions_variant_optional.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/thread_support.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/tuple_fwd_decls.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/type_compound.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/type_detected.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/type_fundamental.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/type_pod.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/type_properties.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/type_transformations.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/internal/type_void_t.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/intrusive_hash_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/intrusive_hash_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/intrusive_list.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/intrusive_ptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/iterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/linked_array.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/linked_ptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/list.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/memory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/meta.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/numeric.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/numeric_limits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/optional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/priority_queue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/queue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/random.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/ratio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/safe_ptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/scoped_array.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/scoped_ptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/segmented_vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/shared_array.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/shared_ptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/slist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/sort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/span.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/stack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/string_hash_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/string_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/string_view.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/tuple.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/type_traits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/unique_ptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/unordered_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/unordered_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/utility.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/variant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/vector_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/vector_multimap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/vector_multiset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/vector_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/eastl-src/include/EASTL/weak_ptr.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

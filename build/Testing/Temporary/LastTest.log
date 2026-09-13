@@ -1,0 +1,43 @@
+Start testing: Sep 13 01:26 Eastern Daylight Time
+----------------------------------------------------------
+1/2 Testing: test_1
+1/2 Test: test_1
+Command: "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/Release/eastl_vs_std.exe"
+Directory: C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build
+"test_1" start time: Sep 13 01:26 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+EASTL and STD Vals DO NOT match .
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"test_1" end time: Sep 13 01:26 Eastern Daylight Time
+"test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: dod_correctness
+2/2 Test: dod_correctness
+Command: "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/Release/dod_correctness_tests.exe"
+Directory: C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build
+"dod_correctness" start time: Sep 13 01:26 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+[PASS] member view and values
+[PASS] stale handles and slot reuse
+[PASS] swap-and-pop column alignment
+[PASS] move semantics
+[PASS] capacity limit
+[PASS] nontrivial destructor count
+[PASS] late columns and exception rollback
+[PASS] random churn
+8/8 correctness tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"dod_correctness" end time: Sep 13 01:26 Eastern Daylight Time
+"dod_correctness" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 13 01:26 Eastern Daylight Time

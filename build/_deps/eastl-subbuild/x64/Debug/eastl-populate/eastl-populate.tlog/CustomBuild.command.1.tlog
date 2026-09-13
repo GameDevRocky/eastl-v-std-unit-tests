@@ -1,0 +1,150 @@
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/tmp/eastl-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/tmp/eastl-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/tmp/eastl-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\8425D294AED733D9FE258F55548FA7CB\EASTL-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\63765FC099D3370D07BB943449E1356C\EASTL-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/Debug/eastl-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/eastl-populate-prefix/src/eastl-populate-stamp/Debug/eastl-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKEFILES\BDCBBE8C036CC23904142A1817B2C5C8\EASTL-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EASTL-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild" --check-stamp-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

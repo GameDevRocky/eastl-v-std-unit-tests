@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\CMakeFiles\8d5a1053acca27e148df90c70a6a2ef2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{42EB1EA9-E74E-33CE-AD5A-4B2F004A7829}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake
+C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/google_benchmark-src/CMakeLists.txt
+C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/google_benchmark-src/cmake/AddCXXCompilerFlag.cmake
+C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/google_benchmark-src/cmake/CXXFeatureCheck.cmake
+C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/google_benchmark-src/cmake/GetGitVersion.cmake

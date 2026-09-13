@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\src\eastl_allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\doc\EASTL.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{931C916F-2647-34E0-940F-82DD94EC07FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

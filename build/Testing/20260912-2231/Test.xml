@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20260912-2231-Experimental"
+	Name="Rocky"
+	Generator="ctest-4.2.0-rc3"
+	CompilerName="C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.50.35728.0"
+	OSName="Windows"
+	Hostname="Rocky"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="0"
+	ModelName="AMD Ryzen AI 7 350 w/ Radeon 860M"
+	ProcessorCacheSize="80"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="62762"
+	TotalPhysicalMemory="32042"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2000"
+	>
+	<Testing>
+		<StartDateTime>Sep 13 02:35 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1789281358</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 13 02:35 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1789281358</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

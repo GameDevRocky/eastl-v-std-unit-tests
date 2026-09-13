@@ -1,0 +1,150 @@
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/tmp/eabase-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/tmp/eabase-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/tmp/eabase-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\6740128C0708BA651A8DE951937B6B18\EABASE-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\C57BA7BF64E13EB48388DE2A1EB45691\EABASE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/Debug/eabase-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate-prefix/src/eabase-populate-stamp/Debug/eabase-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\1A79F2BCA9D31F653BF74E1496A6FF92\EABASE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild" --check-stamp-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\ROCKL\CODING PROJECTS\EASTL-V-STD-UNIT-TESTS\BUILD\_DEPS\EABASE-SUBBUILD\CMAKEFILES\1A79F2BCA9D31F653BF74E1496A6FF92\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/eabase-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

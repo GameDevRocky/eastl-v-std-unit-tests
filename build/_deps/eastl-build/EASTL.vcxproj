@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{50DEB30B-598F-3774-BADD-9B3D6410B011}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>EASTL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EASTL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EASTL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EASTL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EASTL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EASTL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EASTL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EASTL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EASTL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CHAR16T;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EASTL_OPENSOURCE=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eabase-src\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build" --check-stamp-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\scripts\CMake\CommonCppFlags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build" --check-stamp-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\scripts\CMake\CommonCppFlags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build" --check-stamp-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\scripts\CMake\CommonCppFlags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests" "-BC:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build" --check-stamp-file "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eastl-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\scripts\CMake\CommonCppFlags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\allocator_eastl.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\assert.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\atomic.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\fixed_pool.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\hashtable.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\intrusive_list.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\numeric_limits.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\red_black_tree.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\string.cpp" />
+    <ClCompile Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\source\thread_support.cpp" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\algorithm.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\allocator.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\allocator_malloc.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\any.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\array.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\atomic.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\atomic_raw.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bit.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bitset.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bitvector.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\adaptors.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\call_traits.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\compressed_pair.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\fixed_ring_buffer.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\fixed_tuple_vector.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\flags.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\intrusive_sdlist.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\intrusive_slist.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\list_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\lru_cache.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\overloaded.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\ring_buffer.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\sort_extra.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\bonus\tuple_vector.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\chrono.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\compare.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\core_allocator.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\core_allocator_adapter.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\deque.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\expected.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\finally.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_allocator.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_function.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_hash_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_hash_set.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_list.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_set.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_slist.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_string.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_substring.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\fixed_vector.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\functional.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\hash_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\hash_set.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\heap.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\initializer_list.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_acquire_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_add_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_and_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_cmpxchg_strong.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_cmpxchg_weak.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_compiler_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_cpu_pause.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_exchange.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_fetch_add.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_fetch_and.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_fetch_or.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_fetch_sub.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_fetch_xor.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_load.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_memory_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_or_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_signal_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_store.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_sub_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_thread_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arch_xor_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arm\arch_arm.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arm\arch_arm_acquire_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arm\arch_arm_load.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arm\arch_arm_memory_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arm\arch_arm_store.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\arm\arch_arm_thread_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_acquire_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_add_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_and_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_cmpxchg_strong.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_cmpxchg_weak.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_exchange.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_fetch_add.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_fetch_and.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_fetch_or.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_fetch_sub.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_fetch_xor.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_load.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_memory_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_or_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_store.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_sub_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_thread_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\arch\x86\arch_x86_xor_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_asserts.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_base_width.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_casts.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_flag.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_flag_standalone.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_integral.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_acquire_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_add_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_and_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_base.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_cmpxchg_strong.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_cmpxchg_weak.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_compiler_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_cpu_pause.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_exchange.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_add.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_and.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_or.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_sub.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_xor.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_load.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_memory_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_or_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_signal_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_store.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_sub_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_thread_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_macros\atomic_macros_xor_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_memory_order.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_pointer.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_size_aligned.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\atomic_standalone.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_acquire_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_add_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_and_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_cmpxchg_strong.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_cmpxchg_weak.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_cpu_pause.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_exchange.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_fetch_add.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_fetch_and.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_fetch_or.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_fetch_sub.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_fetch_xor.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_load.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_memory_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_or_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_signal_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_store.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_sub_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_thread_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\compiler_xor_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_add_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_and_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_cmpxchg_strong.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_cmpxchg_weak.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_cpu_pause.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_exchange.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_add.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_and.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_or.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_sub.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_xor.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_load.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_or_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_signal_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_store.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_sub_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_thread_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\gcc\compiler_gcc_xor_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_add_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_and_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_barrier.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_cmpxchg_strong.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_cmpxchg_weak.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_cpu_pause.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_exchange.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_add.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_and.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_or.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_sub.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_xor.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_or_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_signal_fence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_sub_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\atomic\compiler\msvc\compiler_msvc_xor_fetch.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\char_traits.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\concepts.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\config.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\copy_help.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\enable_shared.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\fill_help.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\fixed_pool.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\function.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\function_detail.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\function_help.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\functional_base.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\generic_iterator.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\hashtable.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\in_place_t.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\integer_sequence.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\intrusive_hashtable.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\mem_fn.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\memory_base.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\memory_uses_allocator.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\move_help.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\pair_fwd_decls.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\piecewise_construct_t.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\red_black_tree.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\smart_ptr.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\special_member_functions.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\special_member_functions_expected.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\special_member_functions_variant_optional.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\thread_support.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\tuple_fwd_decls.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\type_compound.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\type_detected.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\type_fundamental.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\type_pod.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\type_properties.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\type_transformations.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\internal\type_void_t.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\intrusive_hash_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\intrusive_hash_set.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\intrusive_list.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\intrusive_ptr.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\iterator.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\linked_array.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\linked_ptr.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\list.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\memory.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\meta.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\numeric.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\numeric_limits.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\optional.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\priority_queue.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\queue.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\random.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\ratio.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\safe_ptr.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\scoped_array.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\scoped_ptr.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\segmented_vector.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\set.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\shared_array.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\shared_ptr.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\slist.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\sort.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\span.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\stack.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\string.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\string_hash_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\string_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\string_view.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\tuple.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\type_traits.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\unique_ptr.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\unordered_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\unordered_set.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\utility.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\variant.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\vector.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\vector_map.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\vector_multimap.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\vector_multiset.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\vector_set.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\version.h" />
+    <ClInclude Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-src\include\EASTL\weak_ptr.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\ZERO_CHECK.vcxproj">
+      <Project>{BC6AD2AD-4689-31A2-B9E6-4BB64C623789}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"build/_deps/eabase-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "EABase::@5aa590b54ccb34b37b27",
+	"name" : "EABase",
+	"paths" : 
+	{
+		"build" : "_deps/eabase-build",
+		"source" : "build/_deps/eabase-src"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

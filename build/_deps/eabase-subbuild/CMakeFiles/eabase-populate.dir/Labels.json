@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/eabase-populate"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/1a79f2bca9d31f653bf74e1496a6ff92/eabase-populate.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/c57ba7bf64e13eb48388de2a1eb45691/eabase-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build/_deps/eabase-subbuild/CMakeFiles/6740128c0708ba651a8de951937b6b18/eabase-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eabase-populate"
+		],
+		"name" : "eabase-populate"
+	}
+}

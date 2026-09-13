@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rockl\Coding Projects\eastl-v-std-unit-tests\build\_deps\eastl-subbuild\CMakeFiles\bdcbbe8c036cc23904142a1817b2c5c8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AE51D43F-F80F-37D9-835C-01B7B3A32EC7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

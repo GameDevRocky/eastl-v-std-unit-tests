@@ -1,0 +1,1696 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "EABase::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-EABase-Debug-f88748e5b55a530ec6f1.json",
+					"name" : "EABase",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Debug-fa335934f1902ee809a6.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Threads::Threads::@5279adb03acc460302d3",
+					"jsonFile" : "target-Threads__Threads-Debug-617354fce16682485893.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "oop_dod_backend::@23d43589321209ae20e1",
+					"jsonFile" : "target-oop_dod_backend-Debug-530914c9a5c12a2c4745.json",
+					"name" : "oop_dod_backend",
+					"projectIndex" : 4
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "_deps/eastl-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eastl-build-Debug-74f6faed8fd3efc6aa7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eastl-src",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "_deps/eabase-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eabase-build-Debug-8c35a9e4a4c3d95a2895.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/eabase-src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "_deps/google_benchmark-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.google_benchmark-build-Debug-5ad6258d80bc36c5f708.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/google_benchmark-build/src",
+					"jsonFile" : "directory-_deps.google_benchmark-build.src-Debug-f7cf9943c51709d0fa64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src/src",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"build" : "_deps/oop_dod_backend-build",
+					"jsonFile" : "directory-_deps.oop_dod_backend-build-Debug-c4fb1551ecb4f0428db4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/oop_dod_backend-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "eastl_vs_std",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "EASTL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EABase",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "benchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "oop_dod_backend",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@23d43589321209ae20e1",
+					"jsonFile" : "target-ALL_BUILD-Debug-40fb5f1fc5cb2740dd91.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5279adb03acc460302d3",
+					"jsonFile" : "target-ALL_BUILD-Debug-68bdf27d8b3434325244.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-ALL_BUILD-Debug-c0c487801d30305ed641.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-ALL_BUILD-Debug-3b5bece28fbd1edb82b5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-f6a7b028e3f1dc9cbe78.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-Debug-6ff84bc8668e500790a1.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "EASTL::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-EASTL-Debug-c7382aa8bb1822e693ca.json",
+					"name" : "EASTL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-Debug-a6f79d3a39a388b019c0.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-Debug-69184dcd047362b2ba8c.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-fbc8b067c7ef22bf94af.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-4f02b83667a1b5781a54.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark-Debug-e97945f4f532198bc8a3.json",
+					"name" : "benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark_main::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark_main-Debug-4ed1026f89402ebe83bf.json",
+					"name" : "benchmark_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_comprehensive_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_comprehensive_benchmarks-Debug-7e38dd7e2d9362f426d2.json",
+					"name" : "dod_comprehensive_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_correctness_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_correctness_tests-Debug-f44dadeb12c584a7a4bc.json",
+					"name" : "dod_correctness_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_memory_report::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_memory_report-Debug-2fa531c30a7b9d71d4eb.json",
+					"name" : "dod_memory_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_parallel_stress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_parallel_stress-Debug-6711ca69433beeba7c23.json",
+					"name" : "dod_parallel_stress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eastl_vs_std::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eastl_vs_std-Debug-7c4006f13b373595e4ff.json",
+					"name" : "eastl_vs_std",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "player_storage_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-player_storage_benchmarks-Debug-caf591e7eb4c8f767193.json",
+					"name" : "player_storage_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_benchmarks-Debug-7b04e82bd5bfbbea7c50.json",
+					"name" : "vector_benchmarks",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "EABase::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-EABase-Release-f88748e5b55a530ec6f1.json",
+					"name" : "EABase",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Release-fa335934f1902ee809a6.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Threads::Threads::@5279adb03acc460302d3",
+					"jsonFile" : "target-Threads__Threads-Release-617354fce16682485893.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "oop_dod_backend::@23d43589321209ae20e1",
+					"jsonFile" : "target-oop_dod_backend-Release-530914c9a5c12a2c4745.json",
+					"name" : "oop_dod_backend",
+					"projectIndex" : 4
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "_deps/eastl-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eastl-build-Release-505e742f8f9d7670975f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eastl-src",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "_deps/eabase-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eabase-build-Release-8c35a9e4a4c3d95a2895.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/eabase-src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "_deps/google_benchmark-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.google_benchmark-build-Release-5ad6258d80bc36c5f708.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/google_benchmark-build/src",
+					"jsonFile" : "directory-_deps.google_benchmark-build.src-Release-f7cf9943c51709d0fa64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src/src",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"build" : "_deps/oop_dod_backend-build",
+					"jsonFile" : "directory-_deps.oop_dod_backend-build-Release-c4fb1551ecb4f0428db4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/oop_dod_backend-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "eastl_vs_std",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "EASTL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EABase",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "benchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "oop_dod_backend",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@23d43589321209ae20e1",
+					"jsonFile" : "target-ALL_BUILD-Release-40fb5f1fc5cb2740dd91.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5279adb03acc460302d3",
+					"jsonFile" : "target-ALL_BUILD-Release-68bdf27d8b3434325244.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-ALL_BUILD-Release-c0c487801d30305ed641.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-ALL_BUILD-Release-3b5bece28fbd1edb82b5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-f6a7b028e3f1dc9cbe78.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-Release-6ff84bc8668e500790a1.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "EASTL::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-EASTL-Release-5a4fedf1c083a3200a3c.json",
+					"name" : "EASTL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-Release-a6f79d3a39a388b019c0.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-Release-69184dcd047362b2ba8c.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-fbc8b067c7ef22bf94af.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-4f02b83667a1b5781a54.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark-Release-e93a9045336347a0ffcb.json",
+					"name" : "benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark_main::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark_main-Release-ba48a401f8f94502da0e.json",
+					"name" : "benchmark_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_comprehensive_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_comprehensive_benchmarks-Release-d2e902b59dd83c337c0b.json",
+					"name" : "dod_comprehensive_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_correctness_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_correctness_tests-Release-bd486de2caa57912275d.json",
+					"name" : "dod_correctness_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_memory_report::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_memory_report-Release-9055b4a749bed3fa1747.json",
+					"name" : "dod_memory_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_parallel_stress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_parallel_stress-Release-a33764182b0e0f8afa03.json",
+					"name" : "dod_parallel_stress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eastl_vs_std::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eastl_vs_std-Release-d3dd66ec7d1c86d3067f.json",
+					"name" : "eastl_vs_std",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "player_storage_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-player_storage_benchmarks-Release-9951c5ca2c861ffab23a.json",
+					"name" : "player_storage_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_benchmarks-Release-e2f7f8b540c7173b199e.json",
+					"name" : "vector_benchmarks",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "EABase::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-EABase-MinSizeRel-f88748e5b55a530ec6f1.json",
+					"name" : "EABase",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-MinSizeRel-fa335934f1902ee809a6.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Threads::Threads::@5279adb03acc460302d3",
+					"jsonFile" : "target-Threads__Threads-MinSizeRel-617354fce16682485893.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "oop_dod_backend::@23d43589321209ae20e1",
+					"jsonFile" : "target-oop_dod_backend-MinSizeRel-530914c9a5c12a2c4745.json",
+					"name" : "oop_dod_backend",
+					"projectIndex" : 4
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "_deps/eastl-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eastl-build-MinSizeRel-351d097e845d10a426a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eastl-src",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "_deps/eabase-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eabase-build-MinSizeRel-8c35a9e4a4c3d95a2895.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/eabase-src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "_deps/google_benchmark-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.google_benchmark-build-MinSizeRel-5ad6258d80bc36c5f708.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/google_benchmark-build/src",
+					"jsonFile" : "directory-_deps.google_benchmark-build.src-MinSizeRel-f7cf9943c51709d0fa64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src/src",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"build" : "_deps/oop_dod_backend-build",
+					"jsonFile" : "directory-_deps.oop_dod_backend-build-MinSizeRel-c4fb1551ecb4f0428db4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/oop_dod_backend-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "eastl_vs_std",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "EASTL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EABase",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "benchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "oop_dod_backend",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@23d43589321209ae20e1",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-40fb5f1fc5cb2740dd91.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5279adb03acc460302d3",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-68bdf27d8b3434325244.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c0c487801d30305ed641.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3b5bece28fbd1edb82b5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f6a7b028e3f1dc9cbe78.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-MinSizeRel-6ff84bc8668e500790a1.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "EASTL::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-EASTL-MinSizeRel-a4b92ee12e8842c482c1.json",
+					"name" : "EASTL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-MinSizeRel-a6f79d3a39a388b019c0.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-MinSizeRel-69184dcd047362b2ba8c.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-MinSizeRel-fbc8b067c7ef22bf94af.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-4f02b83667a1b5781a54.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark-MinSizeRel-34d569b9a58b925c019c.json",
+					"name" : "benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark_main::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark_main-MinSizeRel-8e6a8fbb4555c1c75504.json",
+					"name" : "benchmark_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_comprehensive_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_comprehensive_benchmarks-MinSizeRel-0fedeb995052ba47fb47.json",
+					"name" : "dod_comprehensive_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_correctness_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_correctness_tests-MinSizeRel-5cfa92daa02ac7635f22.json",
+					"name" : "dod_correctness_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_memory_report::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_memory_report-MinSizeRel-13950a983528ced9b86a.json",
+					"name" : "dod_memory_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_parallel_stress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_parallel_stress-MinSizeRel-bead0cf85a99a95db072.json",
+					"name" : "dod_parallel_stress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eastl_vs_std::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eastl_vs_std-MinSizeRel-6ddc8be6361a8fb3ad98.json",
+					"name" : "eastl_vs_std",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "player_storage_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-player_storage_benchmarks-MinSizeRel-c2cc5d76cf7effb21219.json",
+					"name" : "player_storage_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_benchmarks-MinSizeRel-546e0067d995fe771ede.json",
+					"name" : "vector_benchmarks",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "EABase::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-EABase-RelWithDebInfo-f88748e5b55a530ec6f1.json",
+					"name" : "EABase",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-RelWithDebInfo-fa335934f1902ee809a6.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Threads::Threads::@5279adb03acc460302d3",
+					"jsonFile" : "target-Threads__Threads-RelWithDebInfo-617354fce16682485893.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "oop_dod_backend::@23d43589321209ae20e1",
+					"jsonFile" : "target-oop_dod_backend-RelWithDebInfo-530914c9a5c12a2c4745.json",
+					"name" : "oop_dod_backend",
+					"projectIndex" : 4
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "_deps/eastl-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eastl-build-RelWithDebInfo-a28b7649cd79efa805f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eastl-src",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "_deps/eabase-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eabase-build-RelWithDebInfo-8c35a9e4a4c3d95a2895.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/eabase-src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "_deps/google_benchmark-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.google_benchmark-build-RelWithDebInfo-5ad6258d80bc36c5f708.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/google_benchmark-build/src",
+					"jsonFile" : "directory-_deps.google_benchmark-build.src-RelWithDebInfo-f7cf9943c51709d0fa64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "build/_deps/google_benchmark-src/src",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"build" : "_deps/oop_dod_backend-build",
+					"jsonFile" : "directory-_deps.oop_dod_backend-build-RelWithDebInfo-c4fb1551ecb4f0428db4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/oop_dod_backend-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "eastl_vs_std",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "EASTL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EABase",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "benchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						12
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "oop_dod_backend",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@23d43589321209ae20e1",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-40fb5f1fc5cb2740dd91.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5279adb03acc460302d3",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-68bdf27d8b3434325244.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@5aa590b54ccb34b37b27",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c0c487801d30305ed641.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3b5bece28fbd1edb82b5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f6a7b028e3f1dc9cbe78.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-RelWithDebInfo-6ff84bc8668e500790a1.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "EASTL::@d9881a67a48e5afbbe48",
+					"jsonFile" : "target-EASTL-RelWithDebInfo-090153f2833db47a5cdc.json",
+					"name" : "EASTL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-RelWithDebInfo-a6f79d3a39a388b019c0.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-RelWithDebInfo-69184dcd047362b2ba8c.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-RelWithDebInfo-fbc8b067c7ef22bf94af.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-4f02b83667a1b5781a54.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark-RelWithDebInfo-8c812f85251aa92318a9.json",
+					"name" : "benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "benchmark_main::@31dfe5cbed3ca4bbf2a5",
+					"jsonFile" : "target-benchmark_main-RelWithDebInfo-e81edf1aaf3bbc6db4c8.json",
+					"name" : "benchmark_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_comprehensive_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_comprehensive_benchmarks-RelWithDebInfo-b47542a4a7574764311d.json",
+					"name" : "dod_comprehensive_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_correctness_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_correctness_tests-RelWithDebInfo-b17e96e339c9447a3695.json",
+					"name" : "dod_correctness_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_memory_report::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_memory_report-RelWithDebInfo-2467b4fe643c49e206a8.json",
+					"name" : "dod_memory_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dod_parallel_stress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dod_parallel_stress-RelWithDebInfo-93f52823d80c679609f8.json",
+					"name" : "dod_parallel_stress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eastl_vs_std::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eastl_vs_std-RelWithDebInfo-114e3ae4c8a9c8f43ba2.json",
+					"name" : "eastl_vs_std",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "player_storage_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-player_storage_benchmarks-RelWithDebInfo-eb71d436acb73317ffea.json",
+					"name" : "player_storage_benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_benchmarks-RelWithDebInfo-3ef71db7826dcaec738e.json",
+					"name" : "vector_benchmarks",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests/build",
+		"source" : "C:/Users/rockl/Coding Projects/eastl-v-std-unit-tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}
